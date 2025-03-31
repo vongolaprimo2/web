@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harry Potter Fan Page</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <style>
+      @media (max-width: 400px) {
+        nav ul {
+          display: none;
+        }
+        .hamburger-menu {
+          display: block;
+        }
+        .hero {
+          background-image: url("path-to-mobile-image.jpg");
+        }
+        .hero h1 {
+          content: "Mobile Display By Dhruv Menon";
+        }
+      }
+      .clipped-box {
+        width: 300px;
+        height: 300px;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+      }
+      figure img {
+        width: 80%;
+        text-align: center;
+      }
+      figcaption {
+        font-size: 14px;
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Harry Potter Fan Page</h1>
+        <div class="container">
+          <nav>
+            <a href="#" class="hamburger-menu">☰</a>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="images.html">Images</a></li>
+              <li><a href="video.html">Videos</a></li>
+              <li><a href="feedback.html">Feedback</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="page1.html">Page1</a></li>
+              <li><a href="page2.html">Page2</a></li>
+              <li><a href="page3.html">Page3</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="hero">
+      <h1>Welcome to the World of Magic</h1>
+    </div>
+
+    <div class="container">
+      <main>
+        <article>
+          <h2>About Harry Potter</h2>
+          <p>
+            Harry Potter is a series of seven fantasy novels written by British
+            author J.K. Rowling. The series chronicles the adventures of a young
+            wizard, Harry Potter, and his friends Hermione Granger and Ron
+            Weasley, all of whom are students at Hogwarts School of Witchcraft
+            and Wizardry.
+          </p>
+        </article>
+
+        <aside>
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="#">Hogwarts Houses</a></li>
+            <li><a href="#">Spells</a></li>
+            <li><a href="#">Quidditch</a></li>
+          </ul>
+        </aside>
+      </main>
+    </div>
+  </body>
+  <footer>
+    <p>&copy; 2025 Dhruv Menon/8481913</p>
+  </footer>
+</html>
